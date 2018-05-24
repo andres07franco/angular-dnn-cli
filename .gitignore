@@ -28,7 +28,6 @@ plugins/android.json
 plugins/ios.json
 www/
 obj/
-bin/
 wwwroot/
 .vscode/
 $RECYCLE.BIN/

@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="CrearRecalada" type="Module" version="00.00.01">
+    <package name="Demo" type="Module" version="00.00.01">
       <friendlyName>CrearRecalada</friendlyName>
       <description>CrearRecalada</description>
       <azureCompatible>true</azureCompatible>

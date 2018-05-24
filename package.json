@@ -4,8 +4,11 @@
   "description": "Libreria para generar modulos instalables de angular en DotnetNuke 8 en adelante",
   "main": "index.js",
   "dependencies": {
+    "archiver": "^2.1.1",
     "global-npm-seed": "^0.1.1",
+    "node-cmd": "^3.0.0",
     "optimist": "^0.6.1",
+    "rimraf": "^2.6.2",
     "xml2js": "^0.4.19"
   },
   "preferGlobal": true,
@@ -14,7 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "ng-dnn build"
+    "test": "dng build"
   },
   "repository": {
     "type": "git",
