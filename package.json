@@ -1,0 +1,34 @@
+{
+  "name": "angulardnn-cli",
+  "version": "1.0.0",
+  "description": "Libreria para generar modulos instalables de angular en DotnetNuke 8 en adelante",
+  "main": "index.js",
+  "dependencies": {
+    "global-npm-seed": "^0.1.1",
+    "optimist": "^0.6.1",
+    "xml2js": "^0.4.19"
+  },
+  "preferGlobal": true,
+  "directories": {
+    "bin": "./bin"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ng-dnn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres07franco/AngularDnn-CLI.git"
+  },
+  "keywords": [
+    "Angular",
+    "DNN",
+    "CLI"
+  ],
+  "author": "Carlos Marriaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andres07franco/AngularDnn-CLI/issues"
+  },
+  "homepage": "https://github.com/andres07franco/AngularDnn-CLI#readme"
+}
