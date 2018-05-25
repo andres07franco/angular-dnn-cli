@@ -1,8 +1,8 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
     <package name="Demo" type="Module" version="00.00.01">
-      <friendlyName>CrearRecalada</friendlyName>
-      <description>CrearRecalada</description>
+      <friendlyName>#modulename#</friendlyName>
+      <description>#modulename#</description>
       <azureCompatible>true</azureCompatible>
       <dependencies>
         <dependency type="CoreVersion">08.00.00</dependency>
@@ -11,7 +11,7 @@
       <components>
         <component type="ResourceFile">
           <resourceFiles>
-            <basePath>DesktopModules/CrearRecalada</basePath>
+            <basePath>DesktopModules/#modulename#</basePath>
             <resourceFile>
               <name>Resources.zip</name>
             </resourceFile>
@@ -20,17 +20,17 @@
 
         <component type="Module">
           <desktopModule>
-            <moduleName>CrearRecalada</moduleName>
-            <foldername>CrearRecalada</foldername>
+            <moduleName>#modulename#</moduleName>
+            <foldername>#modulename#</foldername>
             <supportedFeatures />
             <moduleDefinitions>
               <moduleDefinition>
-                <friendlyName>CrearRecalada</friendlyName>
+                <friendlyName>#modulename#</friendlyName>
                 <defaultCacheTime>0</defaultCacheTime>
                 <moduleControls>
                   <moduleControl>
                     <controlKey />
-                    <controlSrc>DesktopModules/CrearRecalada/index.html</controlSrc>
+                    <controlSrc>DesktopModules/#modulename#/index.html</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
                     <controlTitle />
                     <controlType>View</controlType>
