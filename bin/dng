@@ -1,2 +1,3 @@
 #!/usr/bin/env node
 require('./../lib/dng.js');
+require('./../lib/dnnfilefactory.js');
