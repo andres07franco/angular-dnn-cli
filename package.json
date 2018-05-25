@@ -1,6 +1,6 @@
 {
   "name": "angulardnn-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Libreria para generar modulos instalables de angular en DotnetNuke 8 en adelante",
   "main": "index.js",
   "dependencies": {
