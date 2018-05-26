@@ -1,6 +1,6 @@
 {
   "name": "angulardnn-cli",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A library that allows generating Dotnetnuke modules, developed in Angular 6.",
   "main": "index.js",
   "dependencies": {
