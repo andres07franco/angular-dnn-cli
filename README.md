@@ -1,11 +1,12 @@
-﻿# AngularDnn-CLI
+﻿## AngularDnn-CLI
+
 A library that allows generating Dotnetnuke modules, developed in Angular 6.
 
 ## Installation
  
   `npm i -g angulardnn-cli`
 
-## Init Dotnetnuke Moduel
+## Init Dotnetnuke Module
 
     dng init
 This generates a .dnn to each project defined in the angular.json file.
